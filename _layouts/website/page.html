@@ -3,9 +3,9 @@
 {% block style %}
     {{ super() }}
 
-    {% if config.pluginsConfig['mermaid-gb3'].theme %}
+    {% if config.pluginsConfig['mermaid-gb3-fox'].theme %}
         {% set mermaidAsset = 'gitbook-plugin-mermaid-gb3-fox/mermaid/mermaid.' %}
-        {% set mermaidTheme = mermaidAsset + config.pluginsConfig['mermaid-gb3'].theme + '.css' %}
+        {% set mermaidTheme = mermaidAsset + config.pluginsConfig['mermaid-gb3-fox'].theme + '.css' %}
         <link rel="stylesheet" href="{{ mermaidTheme|resolveAsset }}" />
     {% endif %}
 {% endblock %}
