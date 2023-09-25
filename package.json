@@ -2,7 +2,7 @@
   "name": "gitbook-plugin-mermaid-gb3-fox",
   "description": "Plugin for GitBook 3 which renders Mermaid flow from markdown. Tries to work cross platform (windows/unix)",
   "main": "index.js",
-  "version": "2.1.8",
+  "version": "2.1.9",
   "engines": {
     "gitbook": "*"
   },
@@ -20,7 +20,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/lucumt/gitbook-plugin-mermaid-fox.git#readme"
+    "url": "git+https://github.com/lucumt/gitbook-plugin-mermaid-fox.git"
   },
   "author": "lucumt@gmail.com",
   "license": "ISC",
