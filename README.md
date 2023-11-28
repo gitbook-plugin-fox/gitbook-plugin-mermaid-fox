@@ -9,7 +9,7 @@ Support `mermaid` version `10.6.1` so that it can cover the major features of `m
 You can use install via **NPM**:
 
 ```
-$ npm install gitbook-plugin-mermaid-fox
+npm install gitbook-plugin-mermaid-fox
 ```
 
 And use it for your book with in the book.json:
