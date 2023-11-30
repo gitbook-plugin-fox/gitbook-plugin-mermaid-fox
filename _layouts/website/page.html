@@ -4,7 +4,6 @@
     {{ super() }}
 
     {% if config.pluginsConfig['mermaid-fox'].theme %}
-    {% if config.pluginsConfig['mermaid-fox'].theme %}
         {% set mermaidAsset = 'gitbook-plugin-mermaid-fox/mermaid/mermaid.' %}
         {% set mermaidTheme = mermaidAsset + config.pluginsConfig['mermaid-fox'].theme + '.css' %}
         <link rel="stylesheet" href="{{ mermaidTheme|resolveAsset }}" />
