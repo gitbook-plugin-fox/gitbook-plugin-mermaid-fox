@@ -34,3 +34,14 @@ Just put the code into fenced code block and tag it **mermaid** key word like th
       C-->D;
     ```
 
+# 2024-06 update
+
+> Add zoom and SVG export feature for a better user experience.
+
+* svg export
+
+  ![SVG Export Feature](/images/svg-export-feature.png "SVG Export Feature")
+
+* zoom in and out
+
+  ![SVG Zoom Feature](/images/svg-zoom-feature.png "SVG Zoom Feature")
