@@ -38,6 +38,24 @@ Just put the code into fenced code block and tag it **mermaid** key word like th
 
 > Add zoom and SVG export feature for a better user experience.
 
+* Using following config  in `book.js` to enable zoom or export
+
+  ```javascript
+  "mermaid-fox":{
+      "zoom": true,
+      "download": true
+  }
+  ```
+
+  Default config:
+
+  ```javascript
+  "mermaid-fox":{
+      "zoom": false,
+      "download": true
+  }
+  ```
+
 * svg export
 
   ![SVG Export Feature](/images/svg-export-feature.png "SVG Export Feature")
