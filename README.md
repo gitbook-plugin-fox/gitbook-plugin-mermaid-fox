@@ -34,7 +34,7 @@ Just put the code into fenced code block and tag it **mermaid** key word like th
       C-->D;
     ```
 
-# 2024-06 update
+## 2024-06 update
 
 > Add zoom and SVG export feature for a better user experience.
 
